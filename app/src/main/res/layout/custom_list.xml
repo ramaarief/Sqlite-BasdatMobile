@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_format_list_numbered_yellow_24dp"/>
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:text="Id"
+            android:textColor="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            tools:ignore="RtlCompat"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_account_box_green_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_email_green_24dp"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            tools:ignore="RtlCompat"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textViewTelepon"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:text="No Telepon"
+            android:textColor="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            tools:ignore="RtlCompat"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_phone_yellow_24dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
