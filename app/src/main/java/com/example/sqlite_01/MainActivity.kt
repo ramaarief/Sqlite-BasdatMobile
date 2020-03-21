@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
                 //digunakan untuk memanggil fun dari databaseHandler untuk memperbarui data
                 val status = databaseHandler.updateEmployee(EmpModelClass(Integer.parseInt(updateId), updateName, updateEmail, updateTelepon))
                 if(status > -1){
-                    Toast.makeText(applicationContext,"data telah diupdate",Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext,"data ke - $data1 telah diupdate",Toast.LENGTH_LONG).show()
                     u_id.text.clear() //untuk mengosongkan field pada editText setelah menekan button Update
                     u_name.text.clear() //untuk mengosongkan field pada editText setelah menekan button Update
                     u_email.text.clear() //untuk mengosongkan field pada editText setelah menekan button Update
